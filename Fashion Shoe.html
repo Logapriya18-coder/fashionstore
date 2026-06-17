@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fashion Shoes Collection</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: pink;
+}
+
+h1{
+    color: #333;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 220px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px gray;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.rating{
+    color:black;
+    margin: 5px 0;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: deeppink;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Fashion Shoes Collection</h1>
+
+<div class="products">
+
+    <div class="card">
+        <img src="images1/sports shoe.jpeg" alt="Sports Shoe">
+        <h3>Sports Shoe</h3>
+        <div class="rating">★★★★☆ <span>(120 Reviews)</span></div>
+        <p class="price">₹1,299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images1/sneakers.jpeg" alt="Sneakers">
+        <h3>Sneakers</h3>
+        <div class="rating">★★★★★ <span>(180 Reviews)</span></div>
+        <p class="price">₹1,799</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images1/casual.jpeg" alt="Casual">
+        <h3>Casual Shoe</h3>
+        <div class="rating">★★★★☆ <span>(140 Reviews)</span></div>
+        <p class="price">₹999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images1/formal shoe.jpeg" alt="Formal Shoe">
+        <h3>Formal Shoe</h3>
+        <div class="rating">★★★★★ <span>(220 Reviews)</span></div>
+        <p class="price">₹2,499</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+</body>
+</html>

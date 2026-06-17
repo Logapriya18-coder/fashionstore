@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Store Product Page</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:pink;
+}
+h1{
+    text-align:center;
+    margin:30px;
+    font-size:40px;
+    color: black;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:20px;
+}
+.card{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+    text-align:center;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+.price{
+    color:hotpink;
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+button{
+    background:black;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:deeppink;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Fashion hub Collection</h1>
+
+<section class="products">
+
+    <div class="card">
+        <img src="images1/stylish dress.jpg"height="200">
+        <div class="card-content">
+            <h3><a href="Stylish dress.html">Stylish Dress</a></h3>
+            <p class="price">₹999</p>
+            <button>Add to Cart</button>
+
+        </div>
+    </div>
+    <div class="card">
+        <img src="images1/fashion shoe.jpg"height="200">
+
+        <div class="card-content">
+            <h3><a href="fashion shoe.html">Fashion Shoe</a></h3>
+            <p class="price">₹1499</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="images1/Modern top.jpeg"height="200">
+
+        <div class="card-content">
+            <h3><a href="modern tops.html">Modern Tops</a></h3>
+            <p class="price">₹799</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
